@@ -1,1 +1,7 @@
 ppio/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/htmlcov/
+**/.coverage
+**/.env
+ppio/ppio/seedance-gateway/main.bak.py

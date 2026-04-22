@@ -1,0 +1,16 @@
+[tool.mypy]
+python_version = "3.13"
+files = ["seedance-gateway"]
+exclude = [
+    "seedance-gateway/tests/",
+    "seedance-gateway/main.bak.py",
+    "seedance-gateway/.venv/",
+]
+ignore_missing_imports = true
+check_untyped_defs = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+no_implicit_optional = true
+show_error_codes = true
+# 渐进式接入：先不开 strict，方便逐步完善
+strict = false
